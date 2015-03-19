@@ -633,5 +633,13 @@ a:after {
 		font-size: 30px;
 		line-height: 38px;
 	}
+	#modal-desc {
+		display: none;
+	}
 }
 
+/*ipad portrait*/
+@media screen and (max-width: 600px) {
+
+    .modal-desc {display:none;}
+}
